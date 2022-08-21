@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BottomSection /> should match the BottomSection component snapshot 1`] = `
+<div>
+  <nav
+    class="Categories_Container"
+  >
+    <ul
+      class="Categories"
+    >
+      <li
+        class="Category"
+      >
+        <button
+          class="Category_Btn false"
+        >
+          Top Headlines
+        </button>
+      </li>
+      <li
+        class="Category"
+      >
+        <button
+          class="Category_Btn false"
+        >
+          Business
+        </button>
+      </li>
+      <li
+        class="Category"
+      >
+        <button
+          class="Category_Btn false"
+        >
+          Entertainment
+        </button>
+      </li>
+      <li
+        class="Category"
+      >
+        <button
+          class="Category_Btn false"
+        >
+          General
+        </button>
+      </li>
+      <li
+        class="Category"
+      >
+        <button
+          class="Category_Btn Selected"
+        >
+          Health
+        </button>
+      </li>
+      <li
+        class="Category"
+      >
+        <button
+          class="Category_Btn false"
+        >
+          Science
+        </button>
+      </li>
+      <li
+        class="Category"
+      >
+        <button
+          class="Category_Btn false"
+        >
+          Sports
+        </button>
+      </li>
+      <li
+        class="Category"
+      >
+        <button
+          class="Category_Btn false"
+        >
+          Technology
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
