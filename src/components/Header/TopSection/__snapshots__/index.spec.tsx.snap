@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopSection /> should match the TopSection component snapshot 1`] = `
+<div>
+  <div
+    class="TopSection"
+  >
+    <div
+      class="Logo"
+    >
+      <img
+        alt="Anderson Post Icon"
+        src="logo.svg"
+      />
+    </div>
+    <span
+      class="Hamburger"
+    />
+    <nav
+      class="Nav"
+    >
+      <ul
+        class="Nav_Item"
+      >
+        <li
+          class="Actions"
+        >
+          <button
+            class="Actions_Item Btn Hide_Sm"
+          >
+            NewsLetter
+          </button>
+          <button
+            class="Actions_Item Btn Hide_Sm"
+          >
+            Sign In
+          </button>
+          <button
+            class="Subscribe Btn Hide_Sm"
+          >
+            Subscribe
+          </button>
+          <button
+            class="Search_Icon Btn"
+          >
+            <img
+              alt="Search Icon"
+              src="Union.svg"
+            />
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
