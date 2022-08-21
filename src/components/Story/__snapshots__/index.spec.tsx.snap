@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Story /> should match the Story component snapshot 1`] = `
+<div>
+  <article
+    class="Story"
+  >
+    <a
+      href="mockUrl"
+    >
+      <h5
+        class="Story_Header"
+      />
+      <section
+        class="Story_Section undefined"
+      >
+        <div
+          class="Story_Section_Item"
+        >
+          <img
+            alt="Mock Title"
+            class="Story_Image"
+            src="MockUrlToImage"
+          />
+        </div>
+        <div
+          class="Story_Section_Item Story_Section_Centered"
+        >
+          <h6
+            class="Story_Source"
+          >
+            Mock Source Name
+          </h6>
+          <h3
+            class="Story_Title"
+          >
+            Mock Title
+          </h3>
+          <h4
+            class="Story_Description"
+          >
+            Mock Description
+          </h4>
+          <p
+            class="Story_Time"
+          >
+            Mock Author - Aug 21 2022
+          </p>
+        </div>
+      </section>
+      <div
+        class="Divider"
+      />
+      <div
+        class="Story_Util"
+      />
+    </a>
+  </article>
+</div>
+`;
+
+exports[`<Story /> when the flex orientation should be reversed should match the Story component snapshot for when the flex orientation should be reversed 1`] = `
+<div>
+  <article
+    class="Story"
+  >
+    <a
+      href="mockUrl"
+    >
+      <h5
+        class="Story_Header"
+      />
+      <section
+        class="Story_Section Reverse"
+      >
+        <div
+          class="Story_Section_Item"
+        >
+          <img
+            alt="Mock Title"
+            class="Story_Image"
+            src="MockUrlToImage"
+          />
+        </div>
+        <div
+          class="Story_Section_Item Story_Section_Centered"
+        >
+          <h6
+            class="Story_Source"
+          >
+            Mock Source Name
+          </h6>
+          <h3
+            class="Story_Title"
+          >
+            Mock Title
+          </h3>
+          <h4
+            class="Story_Description"
+          >
+            Mock Description
+          </h4>
+          <p
+            class="Story_Time"
+          >
+            Mock Author - Aug 21 2022
+          </p>
+        </div>
+      </section>
+      <div
+        class="Divider"
+      />
+      <div
+        class="Story_Util"
+      />
+    </a>
+  </article>
+</div>
+`;
+
+exports[`<Story /> when the story is a top story should match the Story component snapshot for when it is a top story 1`] = `
+<div>
+  <article
+    class="Story"
+  >
+    <a
+      href="mockUrl"
+    >
+      <h5
+        class="Story_Header"
+      >
+        latest Science news
+      </h5>
+      <section
+        class="Top_Story_Section undefined"
+      >
+        <div
+          class="Top_Story_Section_Item"
+        >
+          <img
+            alt="Mock Title"
+            class="Story_Image"
+            src="MockUrlToImage"
+          />
+        </div>
+        <div
+          class="Top_Story_Section_Item Top_Story_Section_Centered"
+        >
+          <h6
+            class="Story_Source"
+          >
+            Mock Source Name
+          </h6>
+          <h3
+            class="Top_Story_Title"
+          >
+            Mock Title
+          </h3>
+          <h4
+            class="Top_Story_Description"
+          >
+            Mock Description
+          </h4>
+          <p
+            class="Top_Story_Time"
+          >
+            1 min ago
+          </p>
+        </div>
+      </section>
+      <div
+        class="Divider"
+      />
+      <div
+        class="Story_Util"
+      />
+    </a>
+  </article>
+</div>
+`;

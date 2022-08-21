@@ -1,0 +1,25 @@
+@import "../../../styles/mixins";
+@import "../../../styles/palette";
+
+.Categories_Container {
+  padding: 1.25rem;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.Categories {
+  width: 800px;
+  @include flex-styles(row, space-between);
+
+  @include lgScreen {
+    margin: 0 auto;
+  }
+}
+
+.Category_Btn {
+  @include text-styles(500, 14px, $primary-color);
+}
+
+.Selected {
+  color: $secondary-color;
+}

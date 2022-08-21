@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should match the Header component snapshot 1`] = `
+<div>
+  <div
+    class="TopSection"
+  />
+  <div
+    class="Divider"
+  />
+  <div
+    class="BottomSection"
+  />
+  <div
+    class="Divider"
+  />
+</div>
+`;

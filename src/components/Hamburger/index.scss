@@ -1,0 +1,37 @@
+@import "../../styles/mixins";
+
+@mixin get-top-and-width($top, $width) {
+  top: $top;
+  width: $width;
+}
+
+@mixin hamburger-basics {
+  position: absolute;
+  height: 3px;
+  background: $primary-color;
+}
+
+@mixin hamburger-basics-content {
+  @include hamburger-basics;
+  content: "";
+}
+
+.Hamburger {
+  left: 1rem;
+  @include get-top-and-width(2rem, 28px);
+  @include hamburger-basics;
+
+  &::before {
+    @include get-top-and-width(-8px, 15px);
+    @include hamburger-basics-content;
+  }
+
+  &::after {
+    @include get-top-and-width(8px, 20px);
+    @include hamburger-basics-content;
+  }
+
+  @include lgScreen {
+    display: none;
+  }
+}

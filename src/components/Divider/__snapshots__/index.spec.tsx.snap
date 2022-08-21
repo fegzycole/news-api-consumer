@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Divider /> should match the Divider component snapshot 1`] = `
+<div>
+  <div
+    class="Divider"
+  />
+</div>
+`;

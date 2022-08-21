@@ -1,0 +1,84 @@
+@import "../../styles/mixins";
+
+@mixin standard_story_text($letter-spacing, $color) {
+  @include text_styles(700, 11px, $color, 'normal', $letter-spacing);
+  @include standard-margin-bottom;
+  @include transform-uppercase;
+}
+
+@mixin get_time_styles($font-size) {
+  @include text-styles(300, $font-size, $light-black-two, 18px);
+  @include standard-margin-bottom(15px);
+  opacity: 0.78;
+}
+
+@mixin get_title_styles($font-size, $line-height) {
+  @include standard-margin-bottom;
+  @include text-styles(700, $font-size, $primary-color, $line-height);
+}
+
+.Story_Header {
+  @include standard_story_text(0.3em, $primary-color);
+  color: $primary-color;
+}
+
+.Story_Image {
+  width: 100%;
+  @include standard-margin-bottom;
+}
+
+.Story_Source {
+  @include standard_story_text(0.15em, $secondary-color);
+}
+
+.Top_Story_Title {
+  @include get_title_styles(24px, 30px);
+}
+
+.Story_Title {
+  @include get_title_styles(18px, 22px);
+}
+
+.Top_Story_Description {
+  @include text_styles(400, 15px, $light-black-one, 21px);
+  @include standard-margin-bottom;
+}
+
+.Story_Description {
+  display: none;
+}
+
+.Top_Story_Time {
+  @include get_time_styles(12px);
+}
+
+.Story_Time {
+  @include get_time_styles(11px);
+}
+
+.Story_Util {
+  @include standard-margin-bottom(15px);
+}
+
+.Story_Section {
+  @include lgScreen {
+    @include flex-styles(row, space-between, center);
+    width: 100%;
+  }
+}
+
+.Story_Section_Item {
+  @include lgScreen {
+    width: 48%;
+  }
+}
+
+.Story_Section_Centered {
+  @include lgScreen {
+    @include flex-styles(column, center);
+  }
+}
+
+.Reverse {
+  flex-direction: row-reverse;
+}

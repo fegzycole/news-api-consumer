@@ -1,0 +1,61 @@
+@import "../../../styles/mixins";
+
+.TopSection {
+  padding: 1rem;
+  @include lgScreen {
+    padding: 1.5rem 3rem;
+  }
+}
+
+.Logo {
+  display: grid;
+
+  img {
+    justify-self: center;
+  }
+}
+
+.Nav {
+  width: 100%;
+
+  @include flex-styles(row, flex-end);
+}
+
+.Nav_Item {
+  width: 300px;
+  margin-top: -20px;
+}
+
+.Btn {
+  border: none;
+  background: $white-color;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.Actions {
+  @include flex-styles("row", space-between);
+  width: 100%;
+}
+
+.Actions_Item {
+  @include text-styles(500, 14px, $primary-color, 20px);
+}
+
+.Hide_Sm {
+  visibility: hidden;
+
+  @include lgScreen {
+    visibility: visible;
+  }
+}
+
+.Subscribe {
+  @include text-styles(500, 14, $white-color);
+  background: $secondary-color;
+  padding: 4px 16px;
+  border-radius: 14px;
+  margin-top: -3px;
+}

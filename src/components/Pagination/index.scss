@@ -1,0 +1,14 @@
+@import "../../styles/mixins";
+
+.Pagination_Btn {
+  @include standard-margin-bottom(15px);
+  @include transform-uppercase;
+  @include text-styles(700, 11px, $secondary-color, 18px, 0.15em);
+  border: 1px solid $secondary-color;
+  border-radius: 18px;
+  padding: 8px 32px;
+}
+
+.Pagination_Section {
+  text-align: center;
+}

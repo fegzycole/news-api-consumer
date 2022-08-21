@@ -1,0 +1,11 @@
+@import "../../styles/mixins";
+
+.Stories_Container {
+  padding: 1rem;
+
+  @include lgScreen {
+    padding: 0px;
+    width: 800px;
+    margin: 1rem auto 0 auto;
+  }
+}
