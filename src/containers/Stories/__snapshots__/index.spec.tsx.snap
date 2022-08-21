@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stories /> should match the Stories component snapshot 1`] = `
+<div>
+  <section
+    class="Stories_Container"
+  >
+    <div
+      class="Story"
+    />
+    <div
+      class="Story"
+    />
+  </section>
+</div>
+`;
