@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should match the Pagination component snapshot 1`] = `
+<div>
+  <section
+    class="Pagination_Section"
+  >
+    <button
+      class="Pagination_Btn"
+    >
+      Load More
+    </button>
+  </section>
+</div>
+`;
