@@ -1,0 +1,23 @@
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: $poppins-font;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
