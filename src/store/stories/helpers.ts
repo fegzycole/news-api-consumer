@@ -1,7 +1,7 @@
 import { StoryCategories } from "./types";
 
 export const apiKey = process.env.REACT_APP_API_KEY;
-export const apiUrl = process.env.REACT_APP_API_URL;
+export const apiUrl = "https://newsapi.org/v2/top-headlines";
 
 export const getRequestPath = (
   category: StoryCategories,
