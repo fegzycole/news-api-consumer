@@ -18,16 +18,16 @@
 
 .Hamburger {
   left: 1rem;
-  @include get-top-and-width(2rem, 28px);
+  @include get-top-and-width(2rem, 16px);
   @include hamburger-basics;
 
   &::before {
-    @include get-top-and-width(-8px, 15px);
+    @include get-top-and-width(-8px, 8px);
     @include hamburger-basics-content;
   }
 
   &::after {
-    @include get-top-and-width(8px, 20px);
+    @include get-top-and-width(8px, 12px);
     @include hamburger-basics-content;
   }
 
