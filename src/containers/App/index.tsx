@@ -36,7 +36,7 @@ function App() {
 
   const handleClick = (val: StoryCategories) => {
     setSelectedCategory(val);
-    setCurrentPageNumber(1);
+    setCurrentPageNumber(PAGE_NUMBER);
   };
 
   const increasePageCount = () => {
